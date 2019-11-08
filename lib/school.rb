@@ -7,7 +7,7 @@ class School
   end
   
   def add_student(name, grade)
-    self.roster[grade] = []
+    self.roster[grade] = [] if self.roster[grade].size == 0
     self.roster[grade] << name
   end
 end
