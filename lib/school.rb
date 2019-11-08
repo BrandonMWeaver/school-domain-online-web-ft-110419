@@ -20,4 +20,5 @@ class School
       pp students.sort
     end
   end
+  pp students
 end
