@@ -15,7 +15,7 @@ class School
     return self.roster[year]
   end
   
-  def sort
+  def self.sort
     self.roster.each do |grade, students|
       grade.each do
         students = students.sort
