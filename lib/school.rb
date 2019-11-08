@@ -16,8 +16,8 @@ class School
   end
   
   def sort
-    self.roster.each do |grade, students|
-      students = students.sort {|name| name <=> name}
+    self.roster.each do |students|
+      puts students
     end
   end
 end
