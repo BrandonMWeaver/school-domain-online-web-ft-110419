@@ -10,4 +10,8 @@ class School
     self.roster[grade] = [] if self.roster[grade] == nil
     self.roster[grade] << name
   end
+  
+  def grade(year)
+    return self.roster[year]
+  end
 end
